@@ -1,0 +1,32 @@
+= Réalisation d'un client Java
+
+
+Il existe beaucoup de façon d'écrire un client Java. Nous vous proposons d'en découvrir 2 :
+(1) utiliser les classes natives à partir de JDK 11 (HttpClient, HttRequest et HttpResponse) et
+(2) Utiliser Spring 5 reactif (WebClient). Les deux solutions ont été présentées en cours.
+
+
+
+
+Dans les deux cas, l'idée est de faire un modèle local se présentant comme un proxy. De cette façon là, le modèle local
+se comporte comme un modèle classique si ce n'est qu'il va chercher les données sur un web-service distant.
+D'un point de vue MVC, l'application cliente est un réel MVC même si le modèle est en réalité distant.
+
+Vous retrouvez dans ce projet deux modules : *doudeulews* qui est le web-service et *doudeuleclientjava* qui sera le client
+Java.
+
+Le Web-service est déjà implanté et il ne vous reste qu'à compléter la classe DoudeuleProxy.
+
+Une fois DoudeuleProxy terminée, vous pourrez exécuter le programme principal qui doit suivre le scénario suivant :
+
+. Création de deux utilisateurs : Gerard Menvuça et Jessica Nette-de-secours
+. Création d'un rendez vous :
+    * Intitulé : Web-services
+    * Détail : Un module de rêve où tous les rêves se transforment en cauchemars.
+. Jessica proposera les créneaux suivants : du 14/02/2020 à 10h15 au 14/02/2020 à 12h15 ainsi que du 13/02/02 à 13h30 au
+13/02 à 15h30. Elle sera disponible sur ces deux créneaux.
+. Gérard lui sera disponible également sur le créneau du 14/02/2020 à 10h15 au 14/02/2020 à 12h15. Il propose un autre créneau
+où ce dernier est disponible : du 15/02/2020 à 8h au 15/02/2020 à 10h.
+
+
+L'interface *DouDeuleInterface* et le service *DouControl* sont commentés.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/doudeuleall.iml" filepath="$PROJECT_DIR$/doudeuleall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doudeuleclientjava/doudeuleclientjava.iml" filepath="$PROJECT_DIR$/doudeuleclientjava/doudeuleclientjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doudeulews/doudeulews.iml" filepath="$PROJECT_DIR$/doudeulews/doudeulews.iml" />
+    </modules>
+  </component>
+</project>
